@@ -1,0 +1,62 @@
+body {
+  font-family: "Comfortaa", bold;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bold;
+  background-color: rgb(59, 59, 59);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  padding: 20px 50px;
+  margin: 20px;
+  background-color: rgb(224, 187, 228);
+}
+
+.question {
+  margin: 20px;
+  padding: 10px;
+}
+
+.answer {
+  display: list-item;
+  margin: 10px;
+  padding: 0;
+  height: 35px;
+  font-family: sans-serif;
+  border-color: none;
+  color: rgb(9, 0, 17);
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(149, 125, 173);
+  font-size: large;
+  transition-duration: 0.4s;
+  border: none;
+  width: 300px;
+}
+
+.answer:hover {
+  background-color: rgb(87, 35, 100);
+  color: white;
+}
+
+.correct {
+  background-color: rgb(2, 226, 2);
+}
+.correct:hover {
+  background-color: rgb(2, 226, 2);
+}
+
+.incorrect {
+  background-color: red;
+}
+.incorrect:hover {
+  background-color: red;
+}
